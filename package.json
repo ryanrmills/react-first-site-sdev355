@@ -1,0 +1,20 @@
+{
+  "name": "react-first-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Component-based React practice site",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^5.4.11"
+  }
+}

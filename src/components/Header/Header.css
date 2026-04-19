@@ -1,0 +1,31 @@
+.site-header {
+  padding: 2.5rem 0 1.5rem;
+  position: relative;
+}
+
+.site-header__inner {
+  width: min(1080px, 92vw);
+  margin: 0 auto;
+}
+
+.site-header__eyebrow {
+  margin: 0;
+  color: var(--moss-700);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.site-header h1 {
+  margin: 0.3rem 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.1rem, 4vw, 3.25rem);
+  line-height: 1.04;
+}
+
+.site-header__subtitle {
+  margin: 0;
+  max-width: 52ch;
+  color: var(--ink-700);
+}

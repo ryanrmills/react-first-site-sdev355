@@ -1,0 +1,19 @@
+.content-section {
+  margin-top: 1.9rem;
+  animation: rise-in 620ms ease both;
+}
+
+.content-section__header {
+  margin-bottom: 0.9rem;
+}
+
+.content-section h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+}
+
+.content-section p {
+  margin: 0.4rem 0 0;
+  color: var(--ink-700);
+}
